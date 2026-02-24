@@ -8,7 +8,7 @@ pipeline {
         }
       stage('Build') {
             steps {
-                echo "Building the code from GitHub..."
+                #echo "Building the code from GitHub..."
             }
         }
         stage('Test') {
